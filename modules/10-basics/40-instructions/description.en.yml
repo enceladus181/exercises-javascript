@@ -26,10 +26,10 @@ theory: |
   
   but it's considered bad practice as it's hard to read.
   
-  Interpreter, the program which executes code in JavaScript needs such splitting. This interpreter in JS world is any browser (as it's able to JS code) or Node.js (in the same reason). The operation principle of any interpreter is (approximately) as follows. It reads the file with code, splits it into instructions and then executes them in turn.
+  Such break down is necessary for the interpreter - the program that executes JavaScript code. This interpreter in JS world is any browser (as it's able to JS code) or Node.js (in the same reason). The operation principle of any interpreter is (approximately) as follows. It reads the file with code, breaks it into instructions and then executes them in turn.
   
 instructions: |
-  Output these three names on the screen, one after the other: "Robert", "Stannis", "Renly".
+  Output these three names on the screen, one after another: "Robert", "Stannis", "Renly".
   
   <pre class='hexlet-basics-output'>
   Robert
@@ -37,20 +37,20 @@ instructions: |
   Renly
   </pre>
   
-  For each name call it's own `console.log` 
+  For each name call it's own `console.log`. 
   
   tips:
   - |
-    [more about interpreters](https://ru.wikipedia.org/wiki/Интерпретатор)
+    [More about interpreters](https://ru.wikipedia.org/wiki/Интерпретатор)
   - |
     [Statements and declarations by category](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Statements)
     
 definitions:
   - name: interpreter
     description: |
-    A program executing code in JavaScript
+      A program executing code in JavaScript
   - name: Statement
     description: |
-      a command given to computer. PHP code is a set of instructions separated (most frequently) by `;`.
+      A command given to computer. PHP code is a set of instructions separated (most frequently) by `;`.
  
  
